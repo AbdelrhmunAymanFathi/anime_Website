@@ -10,5 +10,6 @@ function myFunction() {
     }else
     {
         mobile_menu.style.display = "none"
+        body.style.overflow = "none"
     }
     }
