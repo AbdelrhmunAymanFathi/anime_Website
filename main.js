@@ -2,7 +2,8 @@ let btn = document.getElementById('btn')
 let mobile_menu = document.getElementById('mobile_menu')
 let body = document.getElementById('body')
 
-function myFunction() {
+function myFunction() 
+{
     if(mobile_menu.style.display === "none")
     {
         mobile_menu.style.display = "block"
@@ -12,4 +13,4 @@ function myFunction() {
         mobile_menu.style.display = "none"
         body.style.overflow = "auto"
     }
-    }
+}
